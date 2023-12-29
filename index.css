@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    color: white; 
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: block;
+    flex-direction: row; 
+    max-width: 500px;
+    margin-left: 40px;
+    margin-top: 115px;
+    /* add a margin-right */ 
+}
+
+#hero {
+    display: block;
+    color: #4ADF86; 
+}
+
+.heading{
+    margin-bottom: 10px; 
+    font-weight: 800;
+    font-size: bold;
+
+}
+
+.supporting-text {
+    margin-top: 10px; 
+    margin-bottom: 51px;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+hr.solid {
+  border: 0.001px solid #2F3E53;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center; 
+}
+
+button {
+    width: 191px; 
+    background-color: #10B981; 
+    border: 0; 
+    border-radius: 6px;
+    padding: 9px 15px 9px 17px;
+    color: #fff;
+    margin-bottom: 20px; 
+    /* change margin-bottom to 30px */
+}
+
+.generatedPasswords {
+    display: inline-block; 
+    padding: 10px 5px; 
+    background-color: #273549; 
+    color: #55F991; 
+    width: 211px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;  
+    margin-right: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
